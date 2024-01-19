@@ -1,0 +1,78 @@
+.keep-it-short-body{height:auto;margin:0px;}
+.keep-it-short-navbar{width:100%;height:73px;background:#FFF;padding:10px 70px;}
+.banner-bg-container{width: 100%;height: 594px;padding:20px 80px;}
+.banner-blur-logo{width: 236px;height: 224px;}
+.keep-it-short-logo{width: 159px;height: 113px;margin-top:52px;}
+.keep-it-short-trophy-logo{width: 186px;height: 248px;position: relative;left: 260%;bottom: -33%;}
+.banner-text-container{width:500px;height:auto;}
+.banner-text-container h1{color: #FFC700;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 48px;font-style: normal;font-weight: 700;line-height: 60px;letter-spacing: -1.2px;}
+.banner-text-container h3{color: var(--ffffff, #FFF);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 26px;font-style: normal;font-weight: 500;line-height: 145%;}
+.banner-text-container p{color: var(--ffffff, #FFF);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 500;line-height: 145%;margin-top:40px;}
+.banner-text-container button{padding: 20px 50px;border-radius: 40px;background: #FF5E3A;box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);color: #FFF;font-family: 'Lato';font-size: 22px;font-weight: 700;line-height: 18px;border-width:0px;margin-top:30px;}
+
+.short-film-content-bg-container{display: flex;flex-direction: column;align-items: center;padding: 56px 200px;width: 100%;height: auto;}
+.short-film-content-text{color: var(--Dark-Mode, #343333);text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 400;line-height: 28px;margin-top:30px;}
+.short-film-content-headings{color: #6EAB7D;text-align: center;font-feature-settings: 'liga' off;font-family: inherit;font-size: 48px;font-style: normal;font-weight: 700;letter-spacing: -1.2px;margin-bottom:60px;margin-top:75px;}
+.short-film-contest-container{display:flex;align-items:center;}
+.short-film-contest-divs{width: 100%;height: 226px;flex-shrink: 0;border-radius: 10px;background: #FFF;box-shadow: 0px 0px 12.5px -3px rgba(0, 0, 0, 0.25);display: flex;flex-direction: column;align-items: center;padding: 20px 15px;}
+.short-film-contest-icon-divs{width: 63px;height: 63px;background: #ff5e3a63;border-radius: 100px;display: flex;align-items: center;justify-content: center;padding: 2px;margin-bottom:20px;}
+.short-film-contest-divs h1{color: var(--Neutral-700, #374151);text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 22px;font-style: normal;font-weight: 700;line-height: 30px;}
+.short-film-contest-divs p{color: var(--Neutral-700, #374151);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 14px;font-style: normal;font-weight: 400;text-align:center;}
+.short-film-contest-img-div{width:100%;height:auto;border: 7px solid #808080d1;border-radius: 27px;}
+.short-film-contest-img{height:100%;width:100%;border-radius:20px;}
+.short-film-contest-img-text-container{display:flex;flex-direction:column;justify-content:center;width:100%;height:auto;margin-top:25px;}
+.short-film-contest-img-each-text-div{display:flex;align-items:center;margin-left: 80px;margin-bottom: 30px }
+.short-film-contest-img-each-text-div h1{text-align: center;font-feature-settings: 'liga' off;-webkit-text-stroke-width: 5px;-webkit-text-stroke-color: #6EAB7D;font-family: 'Inter';font-size: 80px;font-style: normal;font-weight: 700;line-height: 60px;letter-spacing: -2px;margin-right:20px;}
+.short-film-contest-img-each-text-div p{color: var(--Neutral-700, #374151);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 20px;font-style: normal;font-weight: 400;line-height: 30px;}
+
+.short-film-join-back-bg-container{position: absolute;width:100%;height:auto;background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));padding-top: 85px;}
+.short-film-blue-icon-div{opacity: 0.2;margin-left: -150px;}
+.short-film-yellow-icon-div{opacity: 0.3;margin-top: 136px;margin-left: -30px;}
+.short-film-green-icon-div{height: 412px;width: 470px;background: #00B698;border-top-left-radius: 573px;opacity: 0.3;margin-top:480px;}
+
+
+.short-film-join-front-bg-container{position: absolute;display: flex;flex-direction: column;align-items: center;width: 100%;height: auto;}
+.short-film-join-front-container{padding: 56px 200px;}
+.short-film-join-text{margin-bottom: 30px;color: #FFF;text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 20px;font-style: normal;font-weight: 400;line-height: 30px;margin-top:20px;}
+.short-film-join-btn{height: 50px;width: 160px;background: #FF5E3A;border-width: 0px;border-radius: 100px;color: #FFF;font-family: 'Lato';font-size: 17px;font-style: normal;font-weight: 600;line-height: 18px;margin-left:450px;}
+.short-film-div-text{border-radius: 25px;background: #6EAB7D;margin-top: 70px;margin-bottom: 30px;height: auto;width: 100%;display: flex;align-items: center;justify-content: center;padding: 20px;}
+.short-film-div-text p{color: #FFF;text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 32px;font-style: normal;font-weight: 600;line-height: 45px;}
+
+.short-film-footer-bg-container{background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));height:auto;width:100%;padding: 20px 100px;display:flex;align-items:center;}
+.short-film-footer-left-container{width:65%;height:auto;}
+.short-film-footer-options-div{display:flex;align-items:center;margin-top:50px;margin-bottom:24px;flex-wrap:wrap;}
+.short-film-footer-options{text-decoration:none;margin-right:15px;color: var(--White, #FFF);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 16px;font-style: normal;font-weight: 400;line-height: 24px;}
+.short-film-footer-copyright-text{color: rgba(209, 213, 219, 0.50);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 14px;font-style: normal;font-weight: 400;line-height: 20px;}
+.short-film-footer-right-container{width:35%;display:flex;flex-direction:column;align-items:center;justify-content:center;}
+.short-film-footer-icons-text{color: var(--Neutral-300, #D1D5DB);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 500;line-height: 28px;}
+
+
+
+@media (max-width:767px){
+    .keep-it-short-navbar{padding: 10px 6px;}
+    .banner-bg-container{padding: 15px 15px;}
+    .banner-text-container{width:100%}
+    .banner-text-container h1{font-size:30px;text-align:center;}
+    .banner-text-container h3{font-size:20px;text-align:center;}
+    .banner-text-container p{font-size:15px;text-align:center;margin-top:12px;}
+    .banner-text-container button{margin-top: 20px;margin-left: 68px;padding: 18px 45px;font-size: 20px;}
+    .banner-blur-logo{margin-left:73px;margin-bottom: 18px;margin-top: 15px;}
+    .short-film-content-bg-container{padding:10px 15px;}
+    .short-film-content-text{font-size:14px;margin-bottom:0px;line-height:24px;}
+    .short-film-content-headings{font-size:30px;margin-top:35px;margin-bottom:30px;}
+    .short-film-contest-divs{margin-bottom:20px;}
+    .short-film-contest-img-each-text-div{margin-left:0px;margin-bottom:10px;}
+    .short-film-contest-img-each-text-div h1{font-size:55px;-webkit-text-stroke-width: 3px;}
+    .short-film-contest-img-each-text-div p{font-size:16px;line-height:22px;}
+    .short-film-contest-img-text-container{padding-top:8px;padding-bottom:42px;}
+    .short-film-join-btn{margin-left:80px;}
+
+    .short-film-join-front-bg-container{background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));}
+    .short-film-join-front-container{padding: 10px 10px;}
+    .short-film-div-text p{font-size:13px;line-height:20px;margin-bottom:0px;}
+    .short-film-join-text{font-size:14px;line-height:20px;}
+
+    .short-film-footer-bg-container{padding:10px 10px;flex-direction:column;border-top: 1px solid #757575;padding-top: 30px;}
+    .short-film-footer-left-container{width:100%;}
+    .short-film-footer-options-div{margin-top:30px;justify-content: center;}
+}
