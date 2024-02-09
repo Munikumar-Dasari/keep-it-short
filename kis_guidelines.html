@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Cinystore | Keep It Short </title>
+    {% extends "corporate_base.html" %}
+    {% load static %}
+</head>
+<body>
+    {% block header %}
+    <div class="kis-guide-banner-container" style="background: url({% static 'keepitshortcss/keep_it_short_images/kis-guidelines-banner.png' %}), lightgray 0px -315.723px / 100% 246.525% no-repeat;">
+        <img src="{% static 'keepitshortcss/keep_it_short_images/kis_logo.png' %}" alt="image" class="kis-guide-logo">
+        <h1 class="kis-guide-banner-heading">Rules & Guidelines</h1>
+    </div>
+    <div class="kis-guide-text-container">
+        <p>By submitting an entry, participants agree to comply with these rules and guidelines. Cinystore reserves the right to disqualify any entry that violates these rules or compromises the integrity of the contest.</p>
+        <h3>We look forward to celebrating the creativity and talent of all participants!</h3>
+    </div>
+    <div class="kis-guide-info-container">
+        <div class="container-fluid mt-5 mb-5">
+            <div class="row">
+                <div class="col-12 col-md-5 d-none d-md-block">
+                    <div class="kis-institute-invite-info-questions-div">
+                        <p id="question1" class="questions-active" style="width:62%;height:35px;">Eligibility</p>
+                        <p id="question2" style="width:62%;height:35px;">Team Composition</p>
+                        <p id="question3" style="width:62%;height:35px;">Submission Criteria</p>
+                        <p id="question4" style="width:62%;height:35px;">Originality and Ownership</p>
+                        <p id="question5" style="width:62%;height:35px;">Technical Specifications</p>
+                        <p id="question6" style="width:62%;height:35px;">Submission Deadline</p>
+                        <p id="question7" style="width:62%;height:35px;">Judging Criteria</p>
+                        <p id="question8" style="width:62%;height:35px;">Prizes</p>
+                        <p id="question9" style="width:62%;height:35px;">Community Engagement</p>
+                        <p id="question10" style="width:62%;height:35px;">Code of Conduct</p>
+                        <p id="question11" style="width:62%;height:35px;">Content Guidelines</p>
+                        <p id="question12" style="width:62%;height:35px;">Publicity and Promotion</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 d-none d-md-block">
+                    <div class="kis-institute-invite-info-answers-div">
+                        <h1 id="qae-name">Eligibility</h1>
+                        <div id="answere1" style="display:block;">
+                            <p>The contest is open only to teams with a direct association with a Film Training Institute, Animation Training Center, Recognized Drama Troupe, or Cultural Community.</p>
+                            <p>Institute has to nominate the teams and only teams nominated by the Institute are eligible for participating in the Contest</p>
+                            <p>All team members must be credited with their respective roles in the film.</p>
+                        </div>
+                        <div id="answere2" style="display:none;">
+                            <p>Teams should have a minimum of 5 members, each with designated roles (e.g., director, music, actor, and cinematographer).</p>
+                            <p>Team members can be a Part of Only one Team, cannot participate in multiple Entries.</p>
+                            <p>Ensure that each team member's role is clearly defined in the film credits.</p>
+                        </div>
+                        <div id="answere3" style="display:none;">
+                            <p>Films must fall into one of the following categories: Short stories, Documentaries, or Experimental Films.</p>
+                            <p>Submissions should not exceed 4 minutes.</p>
+                            <p>Any Indian Language is open, preferably with English subtitles.</p>
+                            <p>All entries must be in English.</p>
+                        </div>
+                        <div id="answere4" style="display:none;">
+                            <p>Films must be original works, and participants must hold the rights to all content, including music and visuals.</p>
+                            <p>Plagiarism or unauthorized use of copyrighted material will result in disqualification.</p>
+                        </div>
+                        <div id="answere5" style="display:none;">
+                            <p>Films should be submitted in any video acceptable video formats</p>
+                            <p>Ensure high audio and video quality for optimal viewing experience.</p>
+                        </div>
+                        <div id="answere6" style="display:none;">
+                            <p>The deadline for submissions will be announced.</p>
+                            <p>Late submissions will not be considered.</p>
+                        </div>
+                        <div id="answere7" style="display:none;">
+                            <p>Entries will be evaluated based on creativity, storytelling, and technical excellence by a panel of industry experts (Jury).</p>
+                            <p>General Users behavior, including engagement, feedback, and ratings, will also influence the final selection.</p>
+                        </div>
+                        <div id="answere8" style="display:none;">
+                            <p>Winners will be announced on [announcement date].</p>
+                            <p>Prizes include [list of prizes], mentorship opportunities, and featured recognition on Cinystore.</p>
+                        </div>
+                        <div id="answere9" style="display:none;">
+                            <p>Participants are encouraged to engage with the Cinystore community through comments, discussions, and feedback.</p>
+                            <p>Positive and constructive interactions are encouraged.</p>
+                        </div>
+                        <div id="answere10" style="display:none;">
+                            <p>All participants must adhere to ethical filmmaking practices.</p>
+                            <p>Any content promoting hate, violence, or discrimination will result in immediate disqualification.</p>
+                        </div>
+                        <div id="answere11" style="display:none;">
+                            <p>Films should avoid explicit violence, explicit content, and any form of religious or political endorsement or critique.</p>
+                        </div>
+                        <div id="answere12" style="display:none;">
+                            <p>Cinystore reserves the right to use submitted films for promotional purposes.</p>
+                            <p>Participants will be credited for their work in all promotional materials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-5 d-block d-md-none">
+                    <div class="accordion" id="accordionExample">
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                              <button class="accordion-button" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Eligibility
+                              </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                              <div class="accordion-body" style="background:#ede6e6;">
+                                <p>The contest is open only to teams with a direct association with a Film Training Institute, Animation Training Center, Recognized Drama Troupe, or Cultural Community.</p>
+                                <p>Institute has to nominate the teams and only teams nominated by the Institute are eligible for participating in the Contest.</p>
+                                <p>All team members must be credited with their respective roles in the film.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Team Composition
+                              </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                              <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>Teams should have a minimum of 5 members, each with designated roles (e.g., director, music, actor, and cinematographer).</p>
+                                    <p>Team members can be a Part of Only one Team, cannot participate in multiple Entries.</p>
+                                    <p>Ensure that each team member's role is clearly defined in the film credits.</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Submission Criteria
+                              </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background:#ede6e6;">
+                                   <p>Films must fall into one of the following categories: Short stories, Documentaries, or Experimental Films.</p>
+                                        <p>Submissions should not exceed 4 minutes.</p>
+                                        <p>Any Indian Language is open, preferably with English subtitles.</p>
+                                        <p>All entries must be in English.</p>
+                                   </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading4">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                Originality and Ownership
+                              </button>
+                            </h2>
+                            <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                              <div class="accordion-body" style="background:#ede6e6;">
+                                   <p>Films must be original works, and participants must hold the rights to all content, including music and visuals.</p>
+                                   <p>Plagiarism or unauthorized use of copyrighted material will result in disqualification.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading5">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                Technical Specifications
+                              </button>
+                            </h2>
+                            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                              <div class="accordion-body" style="background:#ede6e6;">
+                                   <p>Films should be submitted in any video acceptable video formats</p>
+                                   <p>Ensure high audio and video quality for optimal viewing experience.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading6">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                Submission Deadline
+                              </button>
+                            </h2>
+                            <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                              <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>The deadline for submissions will be announced </p>
+                                    <p>Late submissions will not be considered.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading7">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                Judging Criteria
+                              </button>
+                            </h2>
+                            <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>Entries will be evaluated based on creativity, storytelling, and technical excellence by a panel of industry experts (Jury).</p>
+                                    <p>General Users behavior, including engagement, feedback, and ratings, will also influence the final selection.</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading8">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                                Prizes
+                              </button>
+                            </h2>
+                            <div id="collapse8" class="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>Winners will be announced on [announcement date].</p>
+                                    <p>Prizes include [list of prizes], mentorship opportunities, and featured recognition on Cinystore.</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading9">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                                Community Engagement
+                              </button>
+                            </h2>
+                            <div id="collapse9" class="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>Participants are encouraged to engage with the Cinystore community through comments, discussions, and feedback.</p>
+                                    <p>Positive and constructive interactions are encouraged.</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading10">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                                Code of Conduct
+                              </button>
+                            </h2>
+                            <div id="collapse10" class="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>All participants must adhere to ethical filmmaking practices.</p>
+                                    <p>Any content promoting hate, violence, or discrimination will result in immediate disqualification.</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading11">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse11" aria-expanded="false" aria-controls="collapse11">
+                                Content Guidelines
+                              </button>
+                            </h2>
+                            <div id="collapse11" class="accordion-collapse collapse" aria-labelledby="heading11" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>Films should avoid explicit violence, explicit content, and any form of religious or political endorsement or critique.</p>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="accordion-item">
+                            <h2 class="accordion-header" id="heading12">
+                              <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse12" aria-expanded="false" aria-controls="collapse12">
+                                Publicity and Promotion
+                              </button>
+                            </h2>
+                            <div id="collapse12" class="accordion-collapse collapse" aria-labelledby="heading12" data-bs-parent="#accordionExample">
+                                <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>Cinystore reserves the right to use submitted films for promotional purposes.</p>
+                                    <p>Participants will be credited for their work in all promotional materials.</p>
+                                </div>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    {% endblock %}
+</body>
+</html>
