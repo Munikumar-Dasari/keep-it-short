@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <title>Cinystore | Keep It Short </title>
+    <link rel="shortcut icon" href="{% static 'img/favicon.ico' %}"/>
+    <meta name="description" content="A perfect place for movie buffs!">
+    <meta property="og:title" content="Cinystore">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/static/img/logo.webp">
+    <meta property="og:description" content="A perfect place for movie buffs!">
+    <meta property="og:site_name" content="cinystore">
+    <meta property="og:url" content="https://www.cinystore.com/corporate/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="{% static 'keepitshortcss/css/keep_it_short.css' %}"/>
+
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="kis-invite-navbar fixed-top">
+        <img src="{% static 'keepitshortcss/keep_it_short_images/Logo Final 1.png' %}" alt="image" />
+        <a href="{% url 'keepitshort:kis_institute_register' %}">
+            <button class="kis-invite-navbar-btn">Register</button>
+        </a>
+    </nav>
+     <div class="kis-institute-invite-img-div">
+        <img src="{% static 'keepitshortcss/keep_it_short_images/kis-reel-img.png' %}" style="height:100%;width:100%;" >
+    </div>
+     {% block header %}
+     {% endblock %}
+     <div class="container-fluid">
+            <h1 id="qae-name" class="d-none d-md-none"></h1>
+            <div class="row">
+                <div class="col-12 col-md-5">
+                    <div class="kis-institute-invite-container">
+                        <div class="kis-institute-invite-logo-div">
+                            <img src="{% static 'keepitshortcss/keep_it_short_images/kis_logo.png' %}" style="width:100%;height:100%;" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7">
+                    <div class="kis-institute-invite-text-container">
+                        <h1>About Cinystore</h1>
+                        <p>
+                            Cinystore is not just a platform; it's a movement to democratize the film industry.
+                            We believe in the power of storytelling and want to provide a level playing field for
+                            emerging filmmakers. Our platform is designed to showcase diverse cinematic voices
+                            and offer equal opportunities to all, regardless of financial backing.
+                        </p>
+                        <p>
+                            We believe in the power of storytelling and want to provide a level playing field for emerging filmmakers to
+                            showcase their content to the world.
+                        </p>
+                        <h1>Keep It Short</h1>
+                        <p>
+                            As part of our commitment to nurtuting talent, we are organizing an Online Movie Talent Contest-Keep
+                            it Short to discover and celebrate the next generation of storytellers, a competitive reality show for
+                            up-coming filmmakers to showcase their filmmaking talents through their short films 3-4 minutes, and compete with
+                            other aspiring filmmakers to win prize money, and where <span style="color:red;">"THE AUDIENCE"</span> will be the judges.
+                        </p>
+                        <p>
+                            This contest is a unique oppoertunity for the students of Film and Animation Institures to showcase
+                            their creativity, hone their filmmaking skills, and gain recognition on a larger and dedicated platform.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    {% block content %}
+    {% endblock %}
+    <footer class="kis-institute-invite-footer-container">
+        <p class="kis-institute-invite-follow-text">
+            For more details
+            <a href="{% url 'keepitshort:index' %}">https://cinystore.com/keepitshort/keepitshort</a>
+            or write to us on
+            <a href="#">keepitshort@cinystore.com</a>
+        </p>
+
+    </footer>
+
+<!--scripts-->
+<script src="{% static 'keepitshortcss/js/kis.js' %}"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
