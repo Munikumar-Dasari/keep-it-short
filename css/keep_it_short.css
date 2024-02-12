@@ -1,8 +1,8 @@
 .keep-it-short-body{height:auto;margin:0px;}
 .keep-it-short-navbar{width:100%;height:73px;background:#FFF;padding:10px 70px;}
-.banner-bg-container{width: 100%;height: 594px;padding:0px 80px;margin-top: 75px;}
+.banner-bg-container{width: 100%;height: 594px;padding:0px 80px;}
 .banner-blur-logo{width: 236px;height: 224px;}
-.keep-it-short-logo {width: 230px;height: 170px;margin-top: 14px;margin-left: -19px;}
+.keep-it-short-logo {width: 230px;height: 170px;margin-top: 14px;margin-left: -38px;}
 .keep-it-short-trophy-logo{width: 186px;height: 248px;position: relative;left: 260%;bottom: -33%;}
 .banner-text-container{width:500px;height:auto;}
 .banner-text-container h1{color: #FFC700;font-feature-settings: 'liga' off;font-family: inherit;font-size: 48px;font-style: normal;font-weight: 700;line-height: 1.4;letter-spacing: -1.2px;}
@@ -14,7 +14,7 @@
 .short-film-content-text{color: var(--Dark-Mode, #343333);text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 400;line-height: 28px;margin-bottom:25px;}
 .short-film-content-headings{color: #6EAB7D;text-align: center;font-feature-settings: 'liga' off;font-family: inherit;font-size: 48px;font-style: normal;font-weight: 700;letter-spacing: -1.2px;margin-bottom:60px;margin-top:75px;}
 .short-film-contest-container{display:flex;align-items:center;}
-.short-film-contest-divs{width: 100%;height: 226px;flex-shrink: 0;border-radius: 10px;background: #FFF;box-shadow: 0px 0px 12.5px -3px rgba(0, 0, 0, 0.25);display: flex;flex-direction: column;align-items: center;padding: 20px 15px;}
+.short-film-contest-divs{width: 100%;min-height: 250px;flex-shrink: 0;border-radius: 10px;background: #FFF;box-shadow: 0px 0px 12.5px -3px rgba(0, 0, 0, 0.25);display: flex;flex-direction: column;align-items: center;padding: 20px 15px;}
 .short-film-contest-icon-divs{width: 63px;height: 63px;background: #ff5e3a63;border-radius: 100px;display: flex;align-items: center;justify-content: center;padding: 2px;margin-bottom:20px;}
 .short-film-contest-divs h1{color: var(--Neutral-700, #374151);text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 22px;font-style: normal;font-weight: 700;line-height: 30px;}
 .short-film-contest-divs p{color: var(--Neutral-700, #374151);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 14px;font-style: normal;font-weight: 400;text-align:center;}
@@ -79,42 +79,47 @@
 
 
 /*.................kis_login_signup..................*/
-/*background-image: url("https://www.1min30.com/wp-content/uploads/2020/02/10-films-directeur-rice-marketing-scaled.jpg")*/
 
-.keep-it-short-signup-main-bg-container{font-family: Roboto,-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI","Helvetica Neue",Arial,sans-serif;min-height: 100vh;padding: 0px;background:var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));background-size: cover;color: #fff;}
-.keep-it-short-signup-navbar{height:75px;width:100%;background:transparent;padding-top:10px;margin-bottom:20px;padding-left:40px;box-shadow: 10px 10px 10px #333;}
+.kis-login-body{min-height:100vh;margin:0px;background:var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));height:auto;width:100%;}
+.kis-login-navbar{height:73px;width:100%;background:#FFF;margin-bottom:20px;padding:15px 40px;box-shadow: 10px 10px 10px #333;}
 
-.kis-signup-bg-container{min-height: 86vh;margin-bottom: 10px;box-shadow: 1px 1px 10px 1px #000;border-radius: 10px;}
-.kis-signup-bg-image{height: 100%;}
-.kis-signup-bg-images{height: 100%;width: 60%;}
-.kis-signup-main-heading{font-size: 27px;font-weight: 500;letter-spacing: .1rem;color: #ed4e42;}
-.kis-signup-description{font-size: 16px;font-weight: 400;line-height: 1.2;margin-top: 30px;}
+.kis-login-back-main-bg-container{height: 100%;width:100%;}
+.kis-vector-images-div{height:auto;width:100%;display:flex;justify-content:space-between;}
+.kis-blue-vector-img{position:absolute;top:0;left:-50px;width:464px;height:464px;}
+.kis-yellow-vector-img{position:fixed;bottom:-80px;right:-70px;width:495px;height:495px;}
 
-.kis-signup-form{margin-top: 40px;padding:15px 50px;}
-.kis-signup-input-container{display: flex;flex-direction: column;margin-bottom: 40px;}
+.kis-login-front-main-bg-container{min-height:100vh;width:100%;background:transparent;top:0;padding-top:105px;padding-bottom:60px;}
 
-.kis-signup-input-text{font-size: 13px;font-weight: 400;}
-.kis-signup-input-fields-container{display: flex;align-items: center;background-color: transparent;border: 1px solid #d7e3ee;border-top-width: 0px;border-left-width: 0px;border-right-width: 0px;}
-.kis-signup-input-fields{color: #fff;font-weight: 400;height: 35px;width: 100%;background-color: transparent;border-width: 0px;margin-left: 8px;font-size: 18px;}
-.kis-signup-input-fields:focus {outline:none;}
-.kis-signup-checkbox-container{display: flex;align-items: center;margin-bottom: 20px;}
-.kis-signup-checkbox{height: 16px;width: 16px;margin-right: 10px;}
-.kis-signup-checkbox-text{font-size: 16px;margin-top: 6px;font-weight: 300;}
-.kis-signup-btn{height: 40px;width: 27%;border-width: 0px;border-radius: 10px;background-color: #6EAB7D;font-size: 16px;font-weight: 500;color: #fff;}
-.kis-signup-sub-text{font-size: 14px;font-weight: 300;}
+.kis-login-img-bg-container{height:100%;width:100%;}
+.kis-login-cup-img{position:absolute;left:70px;bottom:70px;}
+.kis-signup-cup-img{position:absolute;left:70px;bottom:280px;}
+
+.kis-login-form-bg-container{height:100%;width:90%;background: #FFF;padding: 20px 30px;border-radius:10px;}
+.kis-login-form-heading{font-family: Inter;font-size: 36px;font-weight: 700;line-height: 44px;letter-spacing: 0em;text-align: left;color: #FF5E3A;}
+.kis-login-form-description{font-family: inherit;font-size: 18px;font-weight: 600;line-height: 22px;letter-spacing: 0em;text-align: left;color: #64748B;margin-bottom:45px;}
+.kis-login-input-container{display:flex;flex-direction:column;margin-bottom:30px;}
+.kis-login-label-text{font-family: Inter;font-size: 14px;font-weight: 600;line-height: 17px;letter-spacing: 0em;text-align: left;margin-bottom:0px;}
+.kis-login-input-fields{border: 1.5px solid #64748B;height: 45px;border-radius: 7px;color: #64748B;padding: 0px 12px;font-family: 'Inter';font-weight: 400;letter-spacing: 0.4px;}
+.kis-login-form-container a{font-family: Inter;font-size: 12px;font-weight: 700;line-height: 15px;letter-spacing: 0em;text-align: right;color: #FF5E3A;text-decoration:none;}
+.kis-login-checkbox-div{display:flex;align-items:center;margin-top:20px;margin-bottom:30px;}
+.kis-login-checkbox-div label{margin-left:10px;margin-top:7px;font-family: Inter;font-size: 14px;font-weight: 400;line-height: 17px;letter-spacing: 0em;text-align: left;}
+.kis-login-checkbox-div a{text-decoration:none;}
+.kis-login-btn{width: 100%;height: 45px;border-width: 0px;border-radius: 7px;background: #FF5E3A;color: #FFF;font-size: 20px;font-weight: 600;letter-spacing: 0.4px;margin-bottom:20px;}
+.kis-login-signup-text{font-family: Inter;font-size: 14px;font-weight: 400;line-height: 17px;letter-spacing: 0em;text-align: center;color:#000;}
+.input-error-msg{font-family: Inter;font-size: 14px;font-weight: 300;line-height: 17px;letter-spacing: 0em;text-align: left;color: #FF5E3A;}
+.kis-input-border-color-active{border-color:#FF5E3A;}
+.toggle-icon{position: absolute;transform: translateY(100%);right: 24px;cursor: pointer;}
+
 @media (max-width: 767px){
-    .keep-it-short-signup-main-bg-container{padding: 0px;background-color: #75c6e1;background-image: url('');}
-    .keep-it-short-signup-navbar{padding:10px 10px;box-shadow: -5px 10px 10px #333;}
-    .kis-signup-description{margin-top: 16px;}
-    .kis-signup-input-container{margin-bottom: 24px;}
-    .kis-signup-checkbox-container{margin-bottom: 16px;}
-    .kis-signup-btn{width: 38%;}
+    .kis-login-form-bg-container{width:110%;margin-left:2px;}
+    .kis-login-navbar{padding:10px;}
+    .kis-login-form-heading {font-size:30px;}
 }
 
-.kis-login-heading{font-size: 27px;font-weight: 500;letter-spacing: .1rem;color: #ed4e42;}
-.kis-login-heading-container{height: auto;background: #6EAB7D;padding: 16px;border-top-right-radius: 10px;border-top-left-radius: 10px;}
-.kis-signup-bg-img{height:100%;width:100%;}
-.kis-a-text{color:#FF5E3A;text-decoration:none;}
+
+
+
+
 /*.................kis_login_signup..................*/
 
 /*.................kis_teams_base..................*/
@@ -247,6 +252,8 @@
 
 
 /*..............kis invite..............*/
+.kis-invite-navbar{height:73px;width:100%;background:#fff;margin-bottom:20px;padding:15px 40px;box-shadow: 10px 10px 10px #333;display:flex;justify-content:space-between;align-items:center;}
+.kis-invite-navbar-btn{height: 37px;width: 150px;border-width: 0px;background: #f08b6b;border-radius: 20px;color: #fff;font-family: inherit;font-weight: 600;font-size: 18px;letter-spacing: 0.9px;}
 .kis-institute-invite-img-div{width:100%;height:auto;opacity:0.5;margin-top:-138px;}
 .kis-institute-invite-top-container{display:flex;flex-direction:column;align-items:center;margin-top:-90px;}
 .kis-institute-invite-top-container h1{font-family: 'Gotham Black', sans-serif;font-weight: 900;font-size: 50px;color: #037e6e;margin-bottom:15px;}
@@ -273,8 +280,10 @@
 .kis-institute-invite-info-ans p{color: #343333;font-feature-settings: 'liga' off;font-family: Inter;font-size: 16px;font-style: normal;font-weight: 400;line-height: 28px;}
 
 @media (max-width:767px){
+    .kis-invite-navbar{padding:10px 10px;}
+    .kis-invite-navbar-btn{width: 97px;height: 33px;font-size: 15px;}
     .kis-institute-invite-info-main-container{padding: 10px 11px; margin-left: 4px;width: 100%;}
-    .kis-institute-invite-img-div{margin-top:-66px;}
+    .kis-institute-invite-img-div{margin-top:45px;}
     .kis-institute-invite-text-container{padding-left:0px;}
     .kis-institute-invite-top-container{margin-top: 0px; text-align: center; display: flex;flex-direction: column;  margin-left: 0px;}
     .kis-institute-invite-sponsor-name{margin-left: 0px;text-align: center;margin-bottom: 20px;margin-top:0px;}
@@ -289,7 +298,7 @@
 
 
 /*.........kis guidelines...........*/
-.kis-guide-banner-container{height:auto;width:100%;padding: 80px 130px;display:flex;align-items:center;justify-content:space-between;margin-top: 75px;}
+.kis-guide-banner-container{height:auto;width:100%;padding: 80px 130px;display:flex;align-items:center;justify-content:space-between;}
 .kis-guide-logo{width: 300px;height: 200px;margin-bottom: 30px;}
 .kis-guide-banner-heading{color: #FFC700;font-feature-settings: 'liga' off;font-family: inherit;font-size: 48px;font-style: normal;font-weight: 700;line-height: 60px;letter-spacing: -1.2px;}
 .kis-guide-text-container{background: #f0f6f2;width:100%;height:auto;padding:70px 150px;}
@@ -301,7 +310,7 @@
 
 @media (max-width:767px){
     .kis-guide-banner-container{padding: 30px 10px;text-align: center;flex-direction:column}
-    .kis-guide-logo{width: 180px;height: 130px;margin-bottom: 15px;}
+    .kis-guide-logo{width: 180px;height: 130px;margin-bottom: 15px;margin-left:-45px;}
     .kis-guide-banner-heading {font-size: 32px;text-align: center;}
     .kis-guide-text-container{padding:50px 20px;}
     .kis-guide-info-container{padding: 10px 20px;}
@@ -346,12 +355,12 @@
 .kis-account-form-btn{height: 35px;width: 150px;background-color: #FF5E3A;border-width: 0px;border-radius: 100px;color: #fff;font-size: 18px;font-weight: 600;margin-bottom:40px;}
 
 /*............privacy-text-page css...................*/
-.privacy-text-page-main-bg-container{min-height: 100vh;}
-.privacy-text-page-bg-container{min-height: 85vh;background-color: transparent;border-radius: 20px;padding: 20px;}
-.privacy-text-page-main-bg-container h1{font-family: 'Inter';color: #ff5e3a;font-size: 30px;font-weight: 600;margin-bottom: 7px;margin-left:19px;text-decoration: underline;}
-.privacy-text-page-container h2{font-family: 'Inter';color: #4dadcd;font-size: 22px;font-weight: 400;margin-bottom: 3px;}
-.privacy-text-page-container p{font-family: inherit;color: #000;font-size: 16px;font-weight: 400;line-height: 19px;}
-.privacy-text-page-container hr{border: 1px dashed #fff;}
+.kis-privacy-text-page-main-bg-container{min-height: 100vh;}
+.kis-privacy-text-page-bg-container{min-height: 85vh;background-color: transparent;border-radius: 20px;padding: 20px;}
+.kis-privacy-text-page-main-bg-container h1{font-family: 'Inter';color: #ff5e3a;font-size: 30px;font-weight: 600;margin-bottom: 7px;margin-left:19px;text-decoration: underline;}
+.kis-privacy-text-page-container h2{font-family: 'Inter';color: #4dadcd;font-size: 22px;font-weight: 400;margin-bottom: 3px;}
+.kis-privacy-text-page-container p{font-family: inherit;color: #000;font-size: 16px;font-weight: 400;line-height: 19px;}
+.kis-privacy-text-page-container hr{border: 1px dashed #fff;}
 /*............privacy-text-page css...................*/
 
 .kis-pending-btn{height: 30px;text-decoration: none;width: 130px;background:yellow;border-width:0px;color:black;border-radius: 100px;font-family: 'Inter';font-weight: 500;font-size: 17px;}
