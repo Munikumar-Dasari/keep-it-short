@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+{% extends "kis_invite_base.html" %}
+{% load static %}
+<body>
+    <div class="kis-institute-invite-bg-container">
+        {% block header %}
+        <div class="kis-institute-invite-top-container">
+            <h1>Inviting Institutes</h1>
+            <h3>Unlock Your Creative Potential</h3>
+            <p>Educational Institutes in Keep It Short Online Movie Talent Contest</p>
+        </div>
+        {% endblock %}
+        {% block content %}
+        <div class="kis-institute-invite-info-main-container">
+            <div class="container-fluid mt-5 mb-5">
+                <h1 id="qae-name" class="d-none d-md-none"></h1>
+                <div class="row">
+                    <div class="col-12 col-md-5 d-none d-md-block">
+                        <div class="kis-institute-invite-info-questions-div">
+                            <p id="question1" class="questions-active">Introduction</p>
+                            <p id="question2">Why Participate?</p>
+                            <p id="question3">How Educational Institutes Can Get Involved?</p>
+                            <p id="question4">How to Participate?</p>
+                            <p id="question5">Exclusive Benefits for Participating Educational Institutes:</p>
+                            <p id="question6">How to Participate?</p>
+                            <p id="question7">How to Register?</p>
+                            <p id="question8"></p>
+                            <p id="question9"></p>
+                            <p id="question10"></p>
+                            <p id="question11"></p>
+                            <p id="question12"></p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-7 d-none d-md-block">
+                        <div class="kis-institute-invite-info-answers-div">
+                            <div id="answer1">
+                                <p>We extend an enthusiastic invitation to all Film and Animation Training institutes passionate about fostering creativity and empowering young talents.</p>
+                                <p>"Keep It Short : The Movie Talent Contest" is on the lookout for innovative entries, and we believe your institute has the potential to showcase the best of the emerging filmmaking talent.</p>
+                            </div>
+                            <div id="answer2" style="display:none">
+                                <p><span style="font-weight:600;">Showcase Student Creativity:</span> Provide your students with a platform to express their creativity and storytelling skills on a global stage.</p>
+                                <p><span style="font-weight:600;">Nurturing Emerging Talent:</span> Support the next generation of filmmakers by providing a platform for students to showcase their creativity and skills.</p>
+                                <p><span style="font-weight:600;">Gain Recognition:</span> Elevate your institute's profile by participating in a prestigious event dedicated to promoting and celebrating the talents within the academic community.</p>
+                                <p><span style="font-weight:600;">Networking Opportunities:</span> Connect with other institutes, industry professionals, and filmmakers, fostering collaboration and expanding your network.</p>
+                                <p><span style="font-weight:600;">Global Exposure:</span> Position your institute on a global stage with extensive online visibility before, during, and after the event. Benefit from branding across our website, social media channels, and digital marketing campaigns.</p>
+                            </div>
+                            <div id="answer3" style="display:none">
+                                <p><span style="font-weight:600;">Participation:</span> Encourage your students to submit their creative entries and participate in various categories, gaining valuable exposure and experience.</p>
+                                <p><span style="font-weight:600;">Sponsorship:</span> Explore sponsorship opportunities tailored for educational institutes. Showcase your commitment to arts and culture while enjoying branding benefits across our online platforms.</p>
+                                <p><span style="font-weight:600;">Collaborative Workshops:</span> : Host workshops or webinars to share insights and expertise with participants, enhancing their skills and knowledge in the field of filmmaking.</p>
+                            </div>
+                            <div id="answer4" style="display:none">
+                                <p><span style="font-weight:600;">Register:</span> Visit our website at [Website Link] to register your institute for the contest.</p>
+                                <p><span style="font-weight:600;">Submit Entries:</span> Encourage your students to create and submit their short films, showcasing their filmmaking skills in various categories.</p>
+                                <p><span style="font-weight:600;">Promote:</span> Share the contest details within your institute community and on social media platforms to maximize participation.</p>
+                            </div>
+                            <div id="answer5" style="display:none">
+                                <p><span style="font-weight:600;">Institute Showcase:</span> : Featured on our website and promotional materials as participating institutes, gaining exposure to a global audience.</p>
+                                <p><span style="font-weight:600;">Certificate of Participation:</span> Receive official certificates recognizing your institute's participation in "Keep It Short : The Movie Talent Contest".</p>
+                                <p><span style="font-weight:600;">Networking Opportunities:</span> Connect with other participating institutes, industry professionals, and filmmakers through exclusive online networking events.</p>
+                            </div>
+                            <div id="answer6" style="display:none">
+                                <p>Registration Deadline: To Be Announced</p>
+                                <p>Submission Deadline: To Be announced</p>
+                            </div>
+                            <div id="answer7" style="display:none">
+                                <p>Visit <a href="{% url 'keepitshort:index' %}" style="color:#FF5E3A;">https://cinystore.com/keepitshort/keepitshort</a> to register your institute and access detailed guidelines for participation.</p>
+                            </div>
+                            <div id="answer8" style="display:none;"></div>
+                            <div id="answer9" style="display:none;"></div>
+                            <div id="answer10" style="display:none;"></div>
+                            <div id="answer11" style="display:none;"></div>
+                            <div id="answer12" style="display:none;"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-5 d-block d-md-none">
+                        <div class="accordion" id="accordionExample">
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                  <button class="accordion-button" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Introduction
+                                  </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body" style="background:#ede6e6;">
+                                    <p>We extend an enthusiastic invitation to all Film and Animation Training institutes passionate about fostering creativity and empowering young talents.</p>
+                                    <p>"Keep It Short : The Movie Talent Contest" is on the lookout for innovative entries, and we believe your institute has the potential to showcase the best of the emerging filmmaking talent.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                  <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    Why Participate?
+                                  </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body" style="background:#ede6e6;">
+                                    <p><span style="font-weight:600;">Showcase Student Creativity:</span> Provide your students with a platform to express their creativity and storytelling skills on a global stage.</p>
+                                    <p><span style="font-weight:600;">Nurturing Emerging Talent:</span> Support the next generation of filmmakers by providing a platform for students to showcase their creativity and skills.</p>
+                                    <p><span style="font-weight:600;">Gain Recognition:</span> Elevate your institute's profile by participating in a prestigious event dedicated to promoting and celebrating the talents within the academic community.</p>
+                                    <p><span style="font-weight:600;">Networking Opportunities:</span> Connect with other institutes, industry professionals, and filmmakers, fostering collaboration and expanding your network.</p>
+                                    <p><span style="font-weight:600;">Global Exposure:</span> Position your institute on a global stage with extensive online visibility before, during, and after the event. Benefit from branding across our website, social media channels, and digital marketing campaigns.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                  <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    How Educational Institutes Can Get Involved?
+                                  </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body" style="background:#ede6e6;">
+                                       <p><span style="font-weight:600;">Participation:</span> Encourage your students to submit their creative entries and participate in various categories, gaining valuable exposure and experience.</p>
+                                        <p><span style="font-weight:600;">Sponsorship:</span> Explore sponsorship opportunities tailored for educational institutes. Showcase your commitment to arts and culture while enjoying branding benefits across our online platforms.</p>
+                                        <p><span style="font-weight:600;">Collaborative Workshops:</span> : Host workshops or webinars to share insights and expertise with participants, enhancing their skills and knowledge in the field of filmmaking.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading4">
+                                  <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                                    How to Participate?
+                                  </button>
+                                </h2>
+                                <div id="collapse4" class="accordion-collapse collapse" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body" style="background:#ede6e6;">
+                                       <p><span style="font-weight:600;">Register:</span> Visit our website at [Website Link] to register your institute for the contest.</p>
+                                        <p><span style="font-weight:600;">Submit Entries:</span> Encourage your students to create and submit their short films, showcasing their filmmaking skills in various categories.</p>
+                                        <p><span style="font-weight:600;">Promote:</span> Share the contest details within your institute community and on social media platforms to maximize participation.</p>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading5">
+                                  <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                                    Exclusive Benefits for Participating Educational Institutes:
+                                  </button>
+                                </h2>
+                                <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body" style="background:#ede6e6;">
+                                       <p><span style="font-weight:600;">Institute Showcase:</span> : Featured on our website and promotional materials as participating institutes, gaining exposure to a global audience.</p>
+                                        <p><span style="font-weight:600;">Certificate of Participation:</span> Receive official certificates recognizing your institute's participation in "Keep It Short : The Movie Talent Contest".</p>
+                                        <p><span style="font-weight:600;">Networking Opportunities:</span> Connect with other participating institutes, industry professionals, and filmmakers through exclusive online networking events.</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading6">
+                                  <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                                    How to Participate?
+                                  </button>
+                                </h2>
+                                <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body" style="background:#ede6e6;">
+                                      <p>Registration Deadline: To Be Announced</p>
+                                      <p>Submission Deadline: To Be announced</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="accordion-item">
+                                <h2 class="accordion-header" id="heading7">
+                                  <button class="accordion-button collapsed" style="font-weight:600;background: #ede6e6;" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                                    How to Register?
+                                  </button>
+                                </h2>
+                                <div id="collapse7" class="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body" style="background:#ede6e6;">
+                                      <p>Visit <a href="{% url 'keepitshort:index' %}" style="color:#FF5E3A;">https://cinystore.com/keepitshort/keepitshort</a> to register your institute and access detailed guidelines for participation.</p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endblock %}
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+{% extends "kis_team_base.html" %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block header %}
+<div class="kis-content-main-bg-container">
+    <div class="kis-content-top-text-div">
+        <div></div>
+        <div data-bs-toggle="modal" data-bs-target="#kisTeamUploadContent">
+            <button class="kis-content-top-btn">Upload Content</button>
+        </div>
+    </div>
+    <!--<div class="kis-content-main-text-bg-container">
+         <div class="kis-content-headings-container">
+             <button id="contentBtn" class="kis-content-headings-btn">Content</button>
+             <button id="teamsBtn" class="kis-content-headings-btn">Teams</button>
+         </div>
+         <div class="producer-content-headings-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="21" height="12" viewBox="0 0 21 12" fill="none">
+                  <path d="M19.95 2.11765H1.05C0.771523 2.11765 0.504451 2.00609 0.307538 1.80753C0.110625 1.60896 0 1.33964 0 1.05882C0 0.778006 0.110625 0.50869 0.307538 0.310122C0.504451 0.111554 0.771523 0 1.05 0H19.95C20.2285 0 20.4955 0.111554 20.6925 0.310122C20.8894 0.50869 21 0.778006 21 1.05882C21 1.33964 20.8894 1.60896 20.6925 1.80753C20.4955 2.00609 20.2285 2.11765 19.95 2.11765ZM16.45 7.05882H4.55C4.27152 7.05882 4.00445 6.94727 3.80754 6.7487C3.61062 6.55013 3.5 6.28082 3.5 6C3.5 5.71918 3.61062 5.44987 3.80754 5.2513C4.00445 5.05273 4.27152 4.94118 4.55 4.94118H16.45C16.7285 4.94118 16.9955 5.05273 17.1925 5.2513C17.3894 5.44987 17.5 5.71918 17.5 6C17.5 6.28082 17.3894 6.55013 17.1925 6.7487C16.9955 6.94727 16.7285 7.05882 16.45 7.05882ZM12.25 12H8.75C8.47152 12 8.20445 11.8884 8.00754 11.6899C7.81062 11.4913 7.7 11.222 7.7 10.9412C7.7 10.6604 7.81062 10.391 8.00754 10.1925C8.20445 9.99391 8.47152 9.88235 8.75 9.88235H12.25C12.5285 9.88235 12.7955 9.99391 12.9925 10.1925C13.1894 10.391 13.3 10.6604 13.3 10.9412C13.3 11.222 13.1894 11.4913 12.9925 11.6899C12.7955 11.8884 12.5285 12 12.25 12Z" fill="#606464"/>
+              </svg>
+         </div>
+    </div>-->
+
+     <div class="kis-content-scroll-container mt-2" id="content">
+         <div class="kis-each-content-div">
+            <div class="d-flex">
+                <div class="kis-each-content-img-div">
+                    <img src="{% static 'keepitshortcss/keep_it_short_images/image 11.png' %}" alt="image" class="kis-each-content-img"/>
+                </div>
+                <div class="kis-each-content-text-div">
+                    <h1 class="kis-each-content-text-head">Team Name</h1>
+                    <h2 class="kis-each-content-text-sub-head">College Name</h2>
+                    <p class="kis-each-content-description">
+                         Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+                    </p>
+                </div>
+            </div>
+             <div class="kis-each-content-buttons">
+                <a href="#" data-bs-toggle="modal" data-bs-target="#kisTeamDetails">
+                    <button>Team details</button>
+                </a>
+             </div>
+        </div>
+    </div>
+</div>
+<!-- Team upload Content Modal -->
+<div class="modal fade" id="kisTeamUploadContent" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="kis-institute-team-dashboard-modal-container">
+              <div>
+                  <h1>Submission Details</h1>
+                  <p>
+                      <span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-dot" viewBox="0 0 20 20">
+                              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                          </svg>
+                      </span>
+                      Provide all required details for your contest submission. This includes a captivating title, a brief synopsis, and any other information specified in the submission guidelines.
+                  </p>
+              </div>
+              <div>
+                  <h1>Upload Your Masterpiece</h1>
+                  <p>
+                      <span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-dot" viewBox="0 0 20 20">
+                              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                          </svg>
+                      </span>
+                      Time to showcase your cinematic brilliance! Upload your short film according to the provided specifications. Ensure it meets the required format for a seamless viewing experience.
+                  </p>
+              </div>
+              <div>
+                  <h1>Confirmation</h1>
+                  <p>
+                      <span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-dot" viewBox="0 0 20 20">
+                              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                          </svg>
+                      </span>
+                      Double-check all details before confirming your submission. Once submitted, you'll receive a confirmation message – a virtual high-five for taking this bold step in your filmmaking journey!
+                  </p>
+              </div>
+              <div>
+                  <h1>Contest Guidelines Review</h1>
+                  <p>
+                      <span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-dot" viewBox="0 0 20 20">
+                              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                          </svg>
+                      </span>
+                      Take a moment to review the contest guidelines to make sure your submission adheres to all requirements. This ensures a fair and exciting competition for all participants.
+                  </p>
+              </div>
+              <div>
+                  <h1>Good Luck!</h1>
+                  <p>
+                      <span>
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="black" class="bi bi-dot" viewBox="0 0 20 20">
+                              <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3"/>
+                          </svg>
+                      </span>
+                      Your submission is in, and you're officially part of the contest! Best of luck on your cinematic adventure. Get ready to shine and make your mark in the world of filmmaking!
+                  </p>
+              </div>
+              <div class="kis-institute-team-dashboard-modal-btn-container">
+                  <a href="{% url 'keepitshort:kis_upload_team' %}">
+                      <button>accept & proceed</button>
+                  </a>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Team member details Modal -->
+<div class="modal fade" id="kisTeamDetails" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel1"></h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+          <div class="kis-account-modal-profile-bg-container">
+                <div class="kis-account-profile-modal-container">
+                    <div class="kis-account-profile-modal-img-div">
+                        <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="image" class="kis-account-profile-modal-img"/>
+                    </div>
+                    <div class="kis-account-profile-modal-text-div">
+                        <div class="kis-account-profile-modal-mail-div">
+                            <h1 class="kis-account-profile-modal-name">Munikumar Dasari</h1>
+                        </div>
+                        <div class="kis-account-profile-modal-mail-div">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="16" viewBox="0 0 19 16" fill="none">
+                              <path d="M0 4.8608V12.8C0 13.6487 0.33363 14.4626 0.927495 15.0627C1.52136 15.6629 2.32681 16 3.16667 16H15.8333C16.6732 16 17.4786 15.6629 18.0725 15.0627C18.6664 14.4626 19 13.6487 19 12.8V3.2C19 2.35131 18.6664 1.53737 18.0725 0.937258C17.4786 0.337142 16.6732 0 15.8333 0H3.16667C2.32681 0 1.52136 0.337142 0.927495 0.937258C0.33363 1.53737 0 2.35131 0 3.2V4.8608ZM3.16667 1.6H15.8333C16.2533 1.6 16.656 1.76857 16.9529 2.06863C17.2499 2.36869 17.4167 2.77565 17.4167 3.2V4.384L9.5 8.6912L1.58333 4.384V3.2C1.58333 2.77565 1.75015 2.36869 2.04708 2.06863C2.34401 1.76857 2.74674 1.6 3.16667 1.6ZM1.58333 6.2016L9.12475 10.304C9.24008 10.3667 9.36902 10.3996 9.5 10.3996C9.63098 10.3996 9.75992 10.3667 9.87525 10.304L17.4167 6.2016V12.8C17.4167 13.2243 17.2499 13.6313 16.9529 13.9314C16.656 14.2314 16.2533 14.4 15.8333 14.4H3.16667C2.74674 14.4 2.34401 14.2314 2.04708 13.9314C1.75015 13.6313 1.58333 13.2243 1.58333 12.8V6.2016Z" fill="#FF5E3A"/>
+                            </svg>
+                            <p class="kis-account-profile-modal-mail">dasarimunikumar3@gmail.com</p>
+                        </div>
+                        <div class="kis-account-profile-modal-mail-div">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="13" height="17" viewBox="0 0 13 17" fill="none">
+                              <path d="M2.38429 0.396002L3.3758 0.0990659C3.91895 -0.0640171 4.50315 -0.0247587 5.01937 0.209516C5.53559 0.44379 5.94857 0.857075 6.18125 1.37225L6.94761 3.06927C7.14766 3.51239 7.20337 4.00675 7.10692 4.483C7.01047 4.95925 6.76669 5.39348 6.4098 5.72477L5.14046 6.90321C5.10336 6.93764 5.07985 6.98415 5.07419 7.03433C5.03681 7.37018 5.26536 8.02412 5.79212 8.93354C6.1753 9.59424 6.5228 10.0587 6.81762 10.3184C7.02322 10.5003 7.13622 10.5392 7.18465 10.5257L8.89239 10.0054C9.35876 9.86335 9.85808 9.87018 10.3203 10.0249C10.7826 10.1797 11.1847 10.4746 11.4701 10.8683L12.5585 12.3707C12.8895 12.8276 13.0427 13.3886 12.9897 13.9494C12.9368 14.5103 12.6812 15.033 12.2705 15.4204L11.5177 16.1311C11.1182 16.5078 10.6275 16.775 10.0934 16.9068C9.55935 17.0386 9.0001 17.0305 8.47013 16.8831C6.13027 16.2326 4.03255 14.2665 2.15319 11.0256C0.271279 7.78048 -0.388878 4.98539 0.219452 2.63952C0.35639 2.11191 0.627513 1.62833 1.00669 1.23537C1.38586 0.842416 1.86031 0.553338 2.38429 0.396002ZM2.75217 1.61166C2.43788 1.70595 2.15326 1.87923 1.92573 2.11482C1.6982 2.35041 1.53544 2.64036 1.4531 2.95675C0.94163 4.92956 1.52702 7.40741 3.25685 10.3911C4.98413 13.3707 6.84395 15.1134 8.81338 15.6615C9.13125 15.7497 9.46663 15.7544 9.78688 15.6753C10.1071 15.5961 10.4014 15.4357 10.6409 15.2098L11.3945 14.4992C11.5813 14.323 11.6975 14.0854 11.7216 13.8304C11.7456 13.5754 11.6759 13.3203 11.5254 13.1126L10.4379 11.611C10.3081 11.4319 10.1252 11.2977 9.91493 11.2273C9.70465 11.1569 9.4775 11.1538 9.26538 11.2185L7.55339 11.7405C6.55933 12.0349 5.65703 11.2388 4.68846 9.56802C4.03595 8.44287 3.73179 7.57152 3.8074 6.8939C3.84734 6.54198 4.01131 6.21712 4.2713 5.97518L5.54063 4.79674C5.70293 4.64617 5.8138 4.44878 5.85769 4.23227C5.90157 4.01576 5.87627 3.791 5.78533 3.58954L5.01897 1.89252C4.9132 1.65853 4.72561 1.47082 4.49113 1.36436C4.25666 1.2579 3.99131 1.23996 3.74453 1.31388L2.75217 1.61166Z" fill="#FF5E3A"/>
+                            </svg>
+                            <p class="kis-account-profile-modal-mail">8978584341</p>
+                        </div>
+                    </div>
+                </div>
+          </div>
+          <div class="kis-account-members-bg-container">
+              <div class="kis-account-members-container">
+                    <div class="kis-account-members-img-div">
+                        <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="image" class="kis-account-members-img"/>
+                    </div>
+                    <div class="kis-account-members-text-div">
+                        <h1 class="kis-account-members-name">Member Name</h1>
+                        <p class="kis-account-members-description">
+                             Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+                        </p>
+                    </div>
+              </div>
+              <div class="kis-account-members-container">
+                    <div class="kis-account-members-img-div">
+                        <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="image" class="kis-account-members-img"/>
+                    </div>
+                    <div class="kis-account-members-text-div">
+                        <h1 class="kis-account-members-name">Member Name</h1>
+                        <p class="kis-account-members-description">
+                             Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+                        </p>
+                    </div>
+              </div>
+              <div class="kis-account-members-container">
+                    <div class="kis-account-members-img-div">
+                        <img src="https://t4.ftcdn.net/jpg/03/64/21/11/360_F_364211147_1qgLVxv1Tcq0Ohz3FawUfrtONzz8nq3e.jpg" alt="image" class="kis-account-members-img"/>
+                    </div>
+                    <div class="kis-account-members-text-div">
+                        <h1 class="kis-account-members-name">Member Name</h1>
+                        <p class="kis-account-members-description">
+                             Lorem Ipsum is simply dummy text of the printing and typesetting industry...
+                        </p>
+                    </div>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+</body>
+</html>

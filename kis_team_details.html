@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+{% extends "kis_team_base.html" %}
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% block header %}
+<div class="kis-content-main-bg-container">
+    <div class="kis-content-main-text-bg-container">
+         <div class="kis-content-scroll-container" style="height:87vh;">
+             <div class="container-fluid">
+                 <div class="row">
+                     <div class="col-12 col-md-5">
+                         <!--<div class="kis-institute-details-instruction-div">
+                             <h5>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</h5>
+                             <h1>Instruction</h1>
+                             <p>1.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                             <p>2.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                             <p>3.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                             <p>4.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                             <p>5.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                             <p>6.Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                         </div>-->
+                     </div>
+                     <div class="col-12 col-md-7">
+                         <div class="kis-institute-details-form-container">
+                             <div class="kis-label-form">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-12 col-md-12">
+                                            <div class="kis-label-input-bg-container">
+                                                <label for="teamName" class="kis-label-input-heading">Team Name</label>
+                                                <input type="text" id="teamName" name="teamName" class="kis-label-input-fields" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                             <div class="kis-label-input-bg-container">
+                                                <label for="language" class="kis-label-input-heading">Language*</label>
+                                                <select id="language" class="kis-label-input-fields" multiple>
+                                                    <option value="Telugu">Telugu</option>
+                                                    <option value="Hindi">Hindi</option>
+                                                    <option value="Kannada">Kannada</option>
+                                                    <option value="Malayalam">Malayalam</option>
+                                                    <option value="Tamil">Tamil</option>
+                                                    <option value="English">English</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="kis-label-input-bg-container">
+                                                <label for="mail" class="kis-label-input-heading">E-mail</label>
+                                                <input type="text" id="mail" name="mail" class="kis-label-input-fields" />
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6">
+                                            <div class="kis-label-input-bg-container">
+                                                <label for="phone" class="kis-label-input-heading">Phone Number</label>
+                                                <input type="text" id="phone" name="phone" class="kis-label-input-fields" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-12 col-md-6">
+                                            <div class="kis-label-input-bg-container">
+                                                <label for="uploadProfile" class="kis-label-input-heading">Profile</label>
+                                                <label class='kis-label-upload-text'>
+                                                    <input id="uploadProfile" name="uploadProfile" type="file" hidden/>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 28 28" fill="none">
+                                                      <path d="M24.5 17.5V22.1667C24.5 22.7855 24.2542 23.379 23.8166 23.8166C23.379 24.2542 22.7855 24.5 22.1667 24.5H5.83333C5.21449 24.5 4.621 24.2542 4.18342 23.8166C3.74583 23.379 3.5 22.7855 3.5 22.1667V17.5" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                      <path d="M19.8337 9.33333L14.0003 3.5L8.16699 9.33333" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                      <path d="M14 3.5V17.5" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                    Upload image
+                                                </label>
+                                                <p class="upload-img-text" id="uploadImgText"></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <a href="{% url 'keepitshort:kis_team_content' %}">
+                                    <button class="kis-label-btn">Upload</button>
+                                </a>
+                            </div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+    </div>
+</div>
+<script src="{% static 'keepitshortcss/js/kis_forms.js' %}"></script>
+{% endblock %}
+</body>
+</html>
