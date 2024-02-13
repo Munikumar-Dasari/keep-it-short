@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+{% extends "kis_base.html" %}
+{% load static %}
+<html lang="en">
+<body >
+{% block header %}
+<div class="kis-jury-body">
+    <div class="kis-jury-banner-bg-container">
+        <!--<nav class="kis-jury-navbar">
+            <img src="{% static 'keepitshortcss/keep_it_short_images/Logo Final 1.png' %}"  alt="cinystore-logo" />
+        </nav>-->
+        <div class="kis-jury-banner-text-container">
+            <h1 class="kis-jury-banner-text">KEEP IT SHORT</h1>
+            <h1 class="kis-jury-banner-bg-text">KEEP IT SHORT</h1>
+        </div>
+    </div>
+    <div class="kis-login-back-main-bg-container">
+        <div class="kis-vector-images-div">
+            <img src="{% static 'keepitshortcss/keep_it_short_images/Vector.png' %}" alt="vector" class="kis-jury-blue-vector-img" />
+            <img src="{% static 'keepitshortcss/keep_it_short_images/Vector (1).png' %}" alt="vector" class="kis-jury-yellow-vector-img" />
+        </div>
+    </div>
+    <div class="kis-jury-content-bg-container">
+        <form>
+            <div class="kis-jury-content-header-container">
+                <h1 class="kis-jury-content-main-heading">JURY</h1>
+                <div class="kis-jury-search-form">
+                    <div class="d-none d-md-block">
+                        <div class="kis-jury-search-input">
+                            <input type="text" id="kisJuryInput" class="kis-jury-input"/>
+                            <div class="kis-jury-input-icon-div">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FFF" class="bi bi-search" viewBox="0 0 16 16">
+                                  <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <select class="kis-jury-select">
+                        <option>Filter</option>
+                        <option value="Name">Name</option>
+                        <option value="Department">Department</option>
+                    </select>
+                </div>
+            </div>
+            <div class="d-block d-md-none" style="margin-bottom:50px;">
+                <div class="kis-jury-search-input">
+                    <input type="text" id="kisJuryInput" class="kis-jury-input"/>
+                    <div class="kis-jury-input-icon-div">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="#FFF" class="bi bi-search" viewBox="0 0 16 16">
+                          <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div class="kis-jury-each-person-container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="kis-jury-person-img-div">
+                            <img src="https://www.iffigoa.org/public/assets/images/jury/Dr-TS-Nagabharana.jpg" alt="image" class="kis-jury-person-img" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-name-div">
+                            <h1>Nags</h1>
+                            <p>Department</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-films-div">
+                            <p>Filmography</p>
+                        </div>
+                    </div>
+                     <div class="col-12 col-md-5">
+                        <div class="kis-jury-person-bio-div">
+                            <p>
+                                Dr. T. S. Nagabharana is a renowned award-winning film director, actor and
+                                producer in Kannada cinema. Credited with making 36 films, he is a recipient
+                                of 10 national awards, 18 State awards, and nine films participating at Indian
+                                Panorama. He is the founder, Chairman and festival director of the Bengaluru
+                                International Film Festival. Honoured with a gold medal for his achievement
+                                in theater by the Government of India, and Government of Karnataka. He is
+                                founder of the theater organization ‘Benaka,’Tumkur University conferred with
+                                an honorary doctorate. He was Chairman, Kannada Development Authority, in the
+                                rank of a Cabinet Minister and has chaired several prestigious institutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="kis-jury-each-person-container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="kis-jury-person-img-div">
+                            <img src="https://cdn.pixabay.com/photo/2015/03/03/08/55/portrait-657116_640.jpg" alt="image" class="kis-jury-person-img" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-name-div">
+                            <h1>Dr. Naga Bharanam</h1>
+                            <p>Department</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-films-div">
+                            <p>Filmography</p>
+                        </div>
+                    </div>
+                     <div class="col-12 col-md-5">
+                        <div class="kis-jury-person-bio-div">
+                            <p>
+                                Dr. T. S. Nagabharana is a renowned award-winning film director, actor and
+                                producer in Kannada cinema. Credited with making 36 films, he is a recipient
+                                of 10 national awards, 18 State awards, and nine films participating at Indian
+                                Panorama. He is the founder, Chairman and festival director of the Bengaluru
+                                International Film Festival. Honoured with a gold medal for his achievement
+                                in theater by the Government of India, and Government of Karnataka. He is
+                                founder of the theater organization ‘Benaka,’Tumkur University conferred with
+                                an honorary doctorate. He was Chairman, Kannada Development Authority, in the
+                                rank of a Cabinet Minister and has chaired several prestigious institutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="kis-jury-each-person-container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="kis-jury-person-img-div">
+                            <img src="{% static 'keepitshortcss/keep_it_short_images/jury1.jpg.avif' %}" alt="image" class="kis-jury-person-img" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-name-div">
+                            <h1>Prashanth Jeeru</h1>
+                            <p>Department</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-films-div">
+                            <p>Filmography</p>
+                        </div>
+                    </div>
+                     <div class="col-12 col-md-5">
+                        <div class="kis-jury-person-bio-div">
+                            <p>
+                                Dr. T. S. Nagabharana is a renowned award-winning film director, actor and
+                                producer in Kannada cinema. Credited with making 36 films, he is a recipient
+                                of 10 national awards, 18 State awards, and nine films participating at Indian
+                                Panorama. He is the founder, Chairman and festival director of the Bengaluru
+                                International Film Festival. Honoured with a gold medal for his achievement
+                                in theater by the Government of India, and Government of Karnataka. He is
+                                founder of the theater organization ‘Benaka,’Tumkur University conferred with
+                                an honorary doctorate. He was Chairman, Kannada Development Authority, in the
+                                rank of a Cabinet Minister and has chaired several prestigious institutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="kis-jury-each-person-container">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-12 col-md-3">
+                        <div class="kis-jury-person-img-div">
+                            <img src="https://www.iffigoa.org/public/assets/images/jury/Dr-TS-Nagabharana.jpg" alt="image" class="kis-jury-person-img" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-name-div">
+                            <h1>Sasikala</h1>
+                            <p>Department</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-2">
+                        <div class="kis-jury-person-films-div">
+                            <p>Filmography</p>
+                        </div>
+                    </div>
+                     <div class="col-12 col-md-5">
+                        <div class="kis-jury-person-bio-div">
+                            <p>
+                                Dr. T. S. Nagabharana is a renowned award-winning film director, actor and
+                                producer in Kannada cinema. Credited with making 36 films, he is a recipient
+                                of 10 national awards, 18 State awards, and nine films participating at Indian
+                                Panorama. He is the founder, Chairman and festival director of the Bengaluru
+                                International Film Festival. Honoured with a gold medal for his achievement
+                                in theater by the Government of India, and Government of Karnataka. He is
+                                founder of the theater organization ‘Benaka,’Tumkur University conferred with
+                                an honorary doctorate. He was Chairman, Kannada Development Authority, in the
+                                rank of a Cabinet Minister and has chaired several prestigious institutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+    {% endblock %}
+</body>
+</html>
