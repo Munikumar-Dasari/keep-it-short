@@ -73,14 +73,14 @@
 
 .short-film-join-back-bg-container{position: absolute;width:100%;height:auto;background: var(--Linear, linear-gradient(90deg, #040607 0.04%, #152627 50.73%, #040607 99.87%));padding-top: 85px;}
 .short-film-blue-icon-div{opacity: 0.2;margin-left: -150px;}
-.short-film-yellow-icon-div{opacity: 0.3;margin-top: 136px;margin-left: -30px;}
-.short-film-green-icon-div{height: 412px;width: 470px;background: #00B698;border-top-left-radius: 573px;opacity: 0.3;margin-top:480px;}
+.short-film-yellow-icon-div{opacity: 0.3;margin-top: 336px;margin-left: -30px;}
+.short-film-green-icon-div{height: 412px;width: 470px;background: #00B698;border-top-left-radius: 573px;opacity: 0.3;margin-top:832px;}
 
 
 .short-film-join-front-bg-container{position: relative;display: flex;flex-direction: column;align-items: center;width: 100%;height: auto;}
 .short-film-join-front-container{padding: 56px 200px;}
 .short-film-join-text{margin-bottom: 30px;color: #FFF;text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 20px;font-style: normal;font-weight: 400;line-height: 30px;margin-top:20px;}
-.short-film-join-btn{height: 50px;width: 160px;background: #FF5E3A;border-width: 0px;border-radius: 100px;color: #FFF;font-family: 'Lato';font-size: 17px;font-style: normal;font-weight: 600;line-height: 18px;}
+.short-film-join-btn{height: 50px;width: 160px;background: #FF5E3A;border-width: 0px;border-radius: 100px;color: #FFF;font-family: 'Lato';font-size: 17px;font-style: normal;font-weight: 600;line-height: 18px;margin-top:18px;}
 .short-film-div-text{border-radius: 25px;background: #6EAB7D;margin-top: 70px;margin-bottom: 30px;height: auto;width: 100%;display: flex;align-items: center;justify-content: center;padding: 20px;}
 .short-film-div-text p{color: #FFF;text-align: center;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 32px;font-style: normal;font-weight: 600;line-height: 45px;}
 
@@ -92,7 +92,12 @@
 .short-film-footer-right-container{width:35%;display:flex;flex-direction:column;align-items:center;justify-content:center;}
 .short-film-footer-icons-text{color: var(--Neutral-300, #D1D5DB);font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 500;line-height: 28px;}
 
-
+.kis-carousel-main-bg-container{width:100%;height:auto;margin-top:40px;background:#00bcd426;border-radius:10px;}
+.kis-carousel-each-container{height:auto;width:100%;border-radius:12px;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:40px 100px;}
+.kis-carousel-each-text{color: #FFF;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 18px;font-style: normal;font-weight: 400;text-align: center;letter-spacing: 0.4px;}
+.kis-carousel-text-heading-div{width:100%;display:flex;align-items:flex-end;justify-content:flex-end;}
+.kis-carousel-text-heading-div h1{color: #FF5E3A;font-feature-settings: 'liga' off;font-family: 'Inter';font-size: 28px;font-style: normal;font-weight: 700;letter-spacing: 0.4px;margin-bottom:0px}
+.kis-carousel-text-heading-div p{color: #BDBDBD;margin-left: 20px;margin-top: 0px;font-size: 19px;font-family: 'Inter';letter-spacing: 0.4px;}
 
 @media (max-width:767px){
     .keep-it-short-navbar{padding: 10px 6px;}
@@ -121,6 +126,10 @@
     .short-film-footer-bg-container{padding:10px 10px;flex-direction:column;border-top: 1px solid #757575;padding-top: 30px;}
     .short-film-footer-left-container{width:100%;}
     .short-film-footer-options-div{margin-top:30px;justify-content: center;}
+
+    .kis-carousel-each-container{padding:40px 20px;}
+    .kis-carousel-each-text{font-size:14px;}
+    .kis-carousel-text-heading-div h1{font-size:23px;}
 }
 
 
@@ -450,7 +459,7 @@
 .kis-jury-banner-bg-text{position: absolute;font-size: 70px;text-transform: uppercase;-webkit-text-stroke: 1px #bcbcbc;z-index: -1;opacity: .5;color: #00000042;line-height: 70px;margin: 0;letter-spacing: 5px;font-weight: 700;}
 .kis-jury-content-bg-container{height:auto;width:100%;display: flex;flex-direction:column;justify-content: center;padding:80px 100px;}
 .kis-jury-content-header-container{width:100%;display:flex;justify-content:space-between;align-items:center;margin-bottom: 60px;border-bottom: 1px solid white;padding-bottom: 15px;}
-.kis-jury-content-main-heading{font-family: antonio,sans-serif;color: #FFF;font-size: 30px;font-weight: 600;letter-spacing: 0.4px;}
+.kis-jury-content-main-heading{font-family: 'Inter';color: #FFF;font-size: 30px;font-weight: 600;letter-spacing: 0.4px;}
 .kis-jury-select{width: 150px;height: 40px;background: transparent;border: 1px solid gray;border-radius: 10px;padding: 1px 7px;color: #fff;margin-left: 15px;}
 .kis-jury-select option{color:#000;}
 .kis-jury-blue-vector-img{position:absolute;left:-50px;width:464px;height:464px;}
@@ -461,12 +470,12 @@
 .kis-jury-person-img-div{width:100%;height:auto;}
 .kis-jury-person-img{height:100%;width:100%;border-radius:7px;box-shadow:1px 1px 6px 1px #fff;margin-bottom:25px;}
 .kis-jury-person-name-div{height:auto;width:100%;}
-.kis-jury-person-name-div h1{font-family: antonio,sans-serif;color: #FF5722;font-size: 24px;font-weight: 600;letter-spacing: 0.5px;line-height: 1.0;margin-bottom: 15px;}
-.kis-jury-person-name-div p{font-family: antonio,sans-serif;color: #FFF;font-size: 15px;font-weight: 400;letter-spacing: 0.5px;}
+.kis-jury-person-name-div h1{font-family: 'Inter';color: #FF5722;font-size: 24px;font-weight: 600;letter-spacing: 0.5px;line-height: 1.0;margin-bottom: 15px;}
+.kis-jury-person-name-div p{font-family: 'Inter';color: #FFF;font-size: 15px;font-weight: 400;letter-spacing: 0.5px;}
 .kis-jury-person-bio-div{height:auto;width:100%;}
-.kis-jury-person-bio-div p{font-family: antonio,sans-serif;color: #FFF;font-size: 14px;font-weight: 400;letter-spacing: 0.5px;line-height: 1.6;}
+.kis-jury-person-bio-div p{font-family: 'Inter';color: #FFF;font-size: 14px;font-weight: 400;letter-spacing: 0.5px;line-height: 1.6;}
 .kis-jury-person-films-div{height:auto;width:100%}
-.kis-jury-person-films-div p{font-family: antonio,sans-serif;color: #FFF;font-size: 16px;font-weight: 400;letter-spacing: 0.5px;line-height: 1.6;}
+.kis-jury-person-films-div p{font-family: 'Inter';color: #FFF;font-size: 16px;font-weight: 400;letter-spacing: 0.5px;line-height: 1.6;}
 
 @media (max-width:767px){
     .kis-jury-navbar{padding:10px 10px;}
